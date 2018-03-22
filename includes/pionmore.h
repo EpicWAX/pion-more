@@ -12,7 +12,7 @@
 # define NUL        0;
 
 int		            **board_init(int **matrix);
-void	            board_display(int **matrix, int tour);
+void	            board_display(int **matrix);
 int 	            parse_line(int **matrix, int s);
 int		            any_one_dot(int **matrix);
 int		            parse_enter(char *s);
